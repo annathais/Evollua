@@ -161,10 +161,16 @@ a:hover {
   text-align: center;
   margin-bottom: 50px;
 }
+.title-process {
+  text-align: left;
+  margin-bottom: 50px;
+}
 .title p {
   color: #777777;
 }
-
+.title-process p {
+  color: #777777;
+}
 .title-modern {
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
@@ -1746,6 +1752,11 @@ a,
   line-height: 40px;
   font-size: 22px;
 }
+.social-line .title-process {
+  margin: 0;
+  line-height: 40px;
+  font-size: 22px;
+}
 .social-line .btn {
   width: 100%;
 }
@@ -2004,6 +2015,10 @@ a,
   margin-bottom: 5px;
   color: #333333;
 }
+.card .title-process {
+  margin-bottom: 5px;
+  color: #333333;
+}
 .card .description {
   font-size: 13px;
 }
@@ -2017,6 +2032,21 @@ a,
   padding: 25px;
 }
 .card-member > img {
+  background: none repeat scroll 0 0 transparent;
+  height: auto;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.card-process {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card-process .content {
+  padding: 25px;
+}
+.card-process > img {
   background: none repeat scroll 0 0 transparent;
   height: auto;
   width: 120px;
