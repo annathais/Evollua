@@ -2432,6 +2432,8 @@ a,
 
 .img-logo {
   margin-top: 180px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .description {
